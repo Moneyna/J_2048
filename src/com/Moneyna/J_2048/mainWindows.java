@@ -627,7 +627,7 @@ class MysqlConnection2 {
     private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
     private static final String DB_URL = "jdbc:mysql://localhost:3306/J_2048";
     static final String USERNAME = "root";
-    static final String PASSWORD = "0Qtmmxhhbqdnlst";
+    static final String PASSWORD = "";  //在这里填入自己数据库密码
   //  private String[] DATA;
 
     public static selectFrame selectFrame;
