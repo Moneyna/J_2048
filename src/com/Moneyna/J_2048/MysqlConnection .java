@@ -13,7 +13,7 @@ class MysqlConnection {
 		private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
 		private static final String DB_URL = "jdbc:mysql://localhost:3306/users";
 		static final String   USERNAME = "root";
-		static final String PASSWORD = "0Qtmmxhhbqdnlst";
+		static final String PASSWORD = "";  //在这里填入自己数据库密码
 
 		public void InsertUser(String userName, String pwd) {
 			Connection con = null;
